@@ -58,8 +58,14 @@ h1 {
 
 button {
     background-color: #3882f6;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     color: #e5e7eb;
+    border-radius: 10px;
+    align-self: center;
+    border: 2px solid #e5e7eb;
+    font-weight: bold;
+    font-size: 24px;
+    flex: 0 0 auto
 }
 
 .main-image {
@@ -125,12 +131,47 @@ h2 {
     width: 800px;
 }
 
-.action{
+.blue-box {
+    display: flex;
+    justify-content: center;
+}
 
+.action{
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 50px;
+    gap: 100px;
+    border-radius: 10px;
+    justify-content: space-around;
+    min-width: 800px;
+    max-width: 1000px;
+    
+    
+}
+
+.join-now {
+    flex: 0 0 auto;
+}
+
+.call {
+    color: #e5e7eb;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.prompt {
+    margin: 0px;
+    color: #e5e7eb;
 }
 
 .footer{
-
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 30px;
 }
 
 body {
